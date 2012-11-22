@@ -4,10 +4,11 @@ Invokes vim in diff mode on your git changes, with capability
 to navigate across pairs of files.  Typically, the right hand
 is editable.
 
-Usage
------
-
-      $ git-vimdiff [options for git diff]
+Installation & Usage
+--------------------
+      $ curl https://raw.github.com/philz/git-vimdiff/master/git-vimdiff > ~/bin/git-vimdiff
+      $ chmod ugo+x ~/bin/git-vimdiff
+      $ ~/bin/git-vimdiff [options for git diff]
 
 I commonly use `git-vimdiff --cached`, `git-vimdiff origin/master..`, 
 and just `git-vimdiff`.
